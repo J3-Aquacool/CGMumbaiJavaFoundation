@@ -1,0 +1,15 @@
+
+Task:
+
+1. Create an Application which should be able to Store 5 Employee details
+eid
+ename
+salary
+desg
+
+2. Create a method within a class to print all 5 employee 
+Name of the method: printAllEmployee()
+
+
+
+
