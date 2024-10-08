@@ -10,6 +10,10 @@ desg
 2. Create a method within a class to print all 5 employee 
 Name of the method: printAllEmployee()
 
+3.Create 2 methods to Search the employee based on the eid and salary
+
+4. Create a Method to delete the employee based on employeeid
+
 
 
 
