@@ -14,6 +14,12 @@ int rollno;
 int marks;
 
 
+public  void printStudent()
+{
+System.out.println("Name:"+name);
+}
+
+
 }
 
 class DemoApp
@@ -24,12 +30,17 @@ public static void main(String a[])
 {
 
 Student st[]=new Student[2]; // 2 objects of Student
-st[0].name="Prathmesh";
+st[0]=new Student();
+
+st[0].name="Prathamesh";
+
 st[0].rollno=101;
 st[0].marks=90;
 
+st[0].printStudent();
 
 
+st[1]=new Student();
 st[1].name="Yash";
 st[1].rollno=201;
 st[1].marks=190;
@@ -52,6 +63,9 @@ System.out.println(totamarks[1]);
 // How to find the length of an array
 // using a property called "length" of Array Class
 System.out.println(totamarks.length);
+
+
+
 }
 
 }
