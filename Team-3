@@ -1,0 +1,49 @@
+Write a program which accepts designations in a String array.
+
+Check the given array elements contain “Sales” and display the total number of elements which contains “Sales” and display the elements also.
+
+
+
+Example:
+
+Sample Input:
+3                        // number of string array elenents
+SalesManager
+SalesExecutive
+HRManager
+
+Sample Output:
+﻿Designations in Sales Department 2
+SalesManager
+SalesExecutive
+
+
+
+
+Sample Input:
+3                        // number of string array elenents
+SalesManager
+SalesExecutive
+Accountant
+
+Expected output:
+Designations in Sales Department 2
+SalesManager
+SalesExecutive
+
+Sample Input:
+2                     //number of string array elenents
+HRExecutive
+Programmer
+
+Expected output:
+No designations in Sales department
+
+
+Sample Input:
+-2                   //number of string array elenents
+Operator
+Programmer
+
+Expected output:
+INVALID INPUT
