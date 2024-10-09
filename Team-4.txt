@@ -1,0 +1,41 @@
+Average of Multiples
+*******************
+
+Create a java program to calculate the average of even multiples of 3 stored in an array
+
+Create the following static method in the given class Source
+
+static int findAverage(int[])  
+
+
+
+Method should calculate and return the average of specific integers present in the input array. Only integers that are even multiples of 3, should be considered for the average calculation
+negative integers should be ignored in the average calculation
+The average should be rounded to the nearest integer
+If the input array is null or empty, average should be zero
+
+
+*Do the following in the main method *
+
+
+
+main method should accept input through console
+The first input 'n' represents the number of integers in the array, followed by n integers
+Create the array and find the average by invoking the static method
+Print the returned average as per the sample output format 
+
+
+Example
+Sample Input:
+5
+6 9 12 -6 10
+
+Expected Output:
+Average : 9
+
+Sample Input:
+4
+-6 -12 -3 4
+
+Expected Output:
+Average : 0
