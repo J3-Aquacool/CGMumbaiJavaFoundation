@@ -1,0 +1,47 @@
+Read the question carefully and follow the input and output format.
+Given an Integer array. Find the average of the numbers located on the Prime Indexes of the Array. Consider 0 index as 1 and 1 index is 2 and so on……
+
+Hint :Consider 1 is not a prime number
+
+Input and Output Format :
+
+First line of input consists of n, the number of elements. Next n lines correspond to the array elements . Output consists of an Integer, the prime index sum.
+
+
+1) Print "Invalid array size" when size of the array is a negative number.
+
+2) Print "Invalid input" when there is any negative numbers available in the input array.
+
+
+Sample Input 1:
+
+7
+
+2
+
+4
+
+5
+
+1
+
+9
+
+3
+
+8
+
+
+Sample Output 1:
+
+6
+
+
+Sample Input 2:
+
+-7
+
+
+Sample Output 2:
+
+Invalid array size
