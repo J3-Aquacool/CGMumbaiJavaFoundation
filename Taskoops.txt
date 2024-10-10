@@ -1,0 +1,9 @@
+
+Identifying Classes and their Relationships
+****************************************
+A trainer trains many trainees on a given technology in this course, which contains many modules – each module is comprised of different units and each unit has many topics.
+
+
+Identifying Classes and their Relationships
+****************************************
+A company sells different items to customers who have placed orders. An order can be placed for several items. However, a company gives special discounts to its registered customers.
